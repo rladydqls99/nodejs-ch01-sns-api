@@ -1,7 +1,7 @@
 const Sequelize = require("sequelize");
 
 class Domain extends Sequelize.Model {
-  static init(sequelize) {
+  static initiate(sequelize) {
     Domain.init(
       {
         host: {
@@ -32,4 +32,4 @@ class Domain extends Sequelize.Model {
   }
 }
 
-exports.Domain = Domain;
+module.exports = Domain;
