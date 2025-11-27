@@ -1,0 +1,37 @@
+{
+  "name": "sns_api",
+  "version": "1.0.0",
+  "description": "sns api server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rladydqls99/nodejs-ch01-sns-api.git"
+  },
+  "author": "kyb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rladydqls99/nodejs-ch01-sns-api/issues"
+  },
+  "homepage": "https://github.com/rladydqls99/nodejs-ch01-sns-api#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "morgan": "^1.10.1",
+    "mysql2": "^3.15.3",
+    "nunjucks": "^3.2.4",
+    "passport": "^0.7.0",
+    "passport-kakao": "^1.0.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.37.7",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
